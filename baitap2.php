@@ -1,5 +1,5 @@
 <?php
-echo " vu minh hieu  <br>";
+echo " vu minh hieu - bai tap ve nha buoi 2  <br>";
 // 1. Đếm ký tự
 echo "Số ký tự: " . strlen("vu minh hieu") . "<br>";
 // 2. Đếm từ

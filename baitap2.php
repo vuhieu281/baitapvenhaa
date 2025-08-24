@@ -1,12 +1,12 @@
 <?php
 //Cau1:Viết một chương trình PHP để đếm số ký tự trong một chuỗi sử dụng hàm strlen().
-$Dem = strlen("Nguyen minh Hieu");
+$Dem = strlen("vu minh hieu");
     echo "So ki tu la:".$Dem;echo "<br>";
 //Cau2:Viết một chương trình PHP để đếm số từ trong một chuỗi sử dụng hàm str_word_count().
-$wordCount = str_word_count("Nguyen Minh Hieu");
+$wordCount = str_word_count("vu minh hieu");
     echo "Số từ trong chuỗi là: $wordCount";echo "<br>";
 //Cau3:Viết một chương trình PHP để đảo ngược một chuỗi sử dụng hàm strrev().
-$daonguoc= strrev('Toi rat dep trai');
+$daonguoc= strrev('toi khong bi gay');
     echo "Dao nguoc thanh :".$daonguoc; echo "<br>";
 //Cau4:Viết một chương trình PHP để tìm kiếm một chuỗi con trong một chuỗi sử dụng hàm strpos().
 $timkiem = strpos("1235678 toi yeu ban","ban");
@@ -16,7 +16,7 @@ $timkiem = strpos("1235678 toi yeu ban","ban");
 $thaythe = str_replace("Toi la Hieu", "My name is Hieu","Hello, Toi la Hieu, toi 20 tuoi");
     echo "Thay the thanh :".$thaythe;echo "<br>";
 //Cau6: Viết 1 chương trình PHP để  kiểm tra xem một chuỗi có bắt đầu bằng một chuỗi con khác không sử dụng hàm strncmp().
-$chuoi1 = "Toi ten Nguyen Minh Hieu";
+$chuoi1 = "Toi ten vu minh hieu";
 $chuoi2 = "khong";
 if ( strncmp($chuoi1, $chuoi2,3)==0){ ; // So sánh 3 ký tự đầu tiên
     echo "Chuỗi '$chuoi1' bắt đầu bằng '$chuoi2'";
@@ -29,15 +29,15 @@ $chuoiHoa = strtoupper($chuoiGoc);
 echo "Chuỗi sau khi chuyển thành chữ hoa: $chuoiHoa";
 echo "<br>";
 //Cau8 Viết một chương trình PHP để chuyển đổi một chuỗi thành chữ thường sử dụng hàm strtolower().
-$bandau="Hieu NGUYEN MINH K59SN";
+$bandau="vu hieu 281";
 $vietthuong= strtolower($bandau);
 echo "Chuỗi thành chữ thường: $vietthuong<br>";
 //Cau9:Viết một chương trình PHP để chuyển đổi một chuỗi thành chuỗi in hoa chữ cái đầu tiên của mỗi từ sử dụng hàm ucwords().
-$dautien = "nguyen minh hieu";
+$dautien = "vu minh hieu";
 $lucsau = ucwords($dautien);
 echo  "Chuỗi sau khi chuyển đổi: $lucsau<br>";
 //Cau10:Viết một chương trình PHP để loại bỏ khoảng trắng ở đầu và cuối chuỗi sử dụng hàm trim().
-$khoangtrang= "  Helllo ae Thanh hoa  ";
+$khoangtrang= "  Helllo ae thai nguyen  ";
 $trimmed = trim($khoangtrang);
 echo "Chuỗi sau khi loại bỏ khoảng trắng: '$trimmed'";echo "<br>";
 //Cau11: Viết một chương trình PHP để loại bỏ ký tự đầu tiên của một chuỗi sử dụng hàm ltrim().
@@ -96,7 +96,7 @@ if (is_int($k)=== True) {
 } echo "<br>";
 
 //Cau20: Viết một chương trình PHP để kiểm tra xem một chuỗi có phải là một email hợp lệ hay không sử dụng hàm filter_var().
-$email = "nguyenminhhieu16012005@gmail.com";
+$email = "hieuvu2820@gmail.com";
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     echo "Email '$email' là hợp lệ.";
 } else {
